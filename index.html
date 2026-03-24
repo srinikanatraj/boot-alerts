@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Alerts Project</title>
+
+  <!-- Bootstrap 4 CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- JS (required for close button) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body class="container mt-4">
+
+  <h2 class="text-center mb-4">Bootstrap Alerts Demo</h2>
+
+  <!-- Basic Alerts -->
+  <h4>Basic Alerts</h4>
+  <div class="alert alert-primary">Primary Alert</div>
+  <div class="alert alert-secondary">Secondary Alert</div>
+  <div class="alert alert-success">Success Alert</div>
+  <div class="alert alert-danger">Danger Alert</div>
+  <div class="alert alert-warning">Warning Alert</div>
+  <div class="alert alert-info">Info Alert</div>
+  <div class="alert alert-light">Light Alert</div>
+  <div class="alert alert-dark">Dark Alert</div>
+
+  <hr>
+
+  <!-- Alert with Links -->
+  <h4>Alert with Link</h4>
+  <div class="alert alert-success">
+    Success! <a href="#" class="alert-link">Click here</a>
+  </div>
+
+  <hr>
+
+  <!-- Closable Alerts -->
+  <h4>Closable Alerts</h4>
+  <div class="alert alert-warning alert-dismissible fade show">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    Warning! You can close this alert.
+  </div>
+
+  <div class="alert alert-danger alert-dismissible fade show">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    Error! Something went wrong.
+  </div>
+
+  <hr>
+
+  <!-- Alert with Heading -->
+  <h4>Alert with Heading</h4>
+  <div class="alert alert-info">
+    <h4 class="alert-heading">Information</h4>
+    <p>This is an important info message.</p>
+  </div>
+
+  <hr>
+
+  <!-- Real UI Example -->
+  <h4>Login System Example</h4>
+
+  <div class="alert alert-success">Login Successful!</div>
+  <div class="alert alert-danger">Invalid Password!</div>
+  <div class="alert alert-warning">Password is weak!</div>
+
+</body>
+</html>
